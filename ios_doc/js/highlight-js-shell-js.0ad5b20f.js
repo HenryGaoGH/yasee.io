@@ -1,0 +1,2 @@
+/*! For license information please see highlight-js-shell-js.0ad5b20f.js.LICENSE.txt */
+(self.webpackChunkswift_docc_render=self.webpackChunkswift_docc_render||[]).push([[176],{7874:function(s){s.exports=function(s){return{name:"Shell Session",aliases:["console","shellsession"],contains:[{className:"meta",begin:/^\s{0,3}[/~\w\d[\]()@-]*[>%$#][ ]?/,starts:{end:/[^\\](?=\s*$)/,subLanguage:"bash"}}]}}}}]);
