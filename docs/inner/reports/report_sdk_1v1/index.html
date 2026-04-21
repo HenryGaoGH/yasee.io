@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-inner/reports/report_sdk_1v1" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.0">
+<title data-rh="true">Yasee 开放平台规划 | Yasee 文档中心.</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://doc.yasee.com.cn/img/docusaurus-social-card.png"><meta data-rh="true" name="twitter:image" content="https://doc.yasee.com.cn/img/docusaurus-social-card.png"><meta data-rh="true" property="og:url" content="https://doc.yasee.com.cn/docs/inner/reports/report_sdk_1v1"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="google-adsense-account" content="ca-pub-8213337084986125"><meta data-rh="true" name="google-site-verification" content="yop1-8-1a8M9AeoRBn8SMjSDJ-oVVo5qvUiZyhSwllc"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Yasee 开放平台规划 | Yasee 文档中心."><meta data-rh="true" name="description" content="领导及同事, 这里是我们内部的文档中心,可以通过这里看我们自己的文档"><meta data-rh="true" property="og:description" content="领导及同事, 这里是我们内部的文档中心,可以通过这里看我们自己的文档"><meta data-rh="true" name="keywords" content="欢迎,Yasee,同事,领导,SDK,集成,BLE,交互,Hook,协议,玉成,动态体温,心电"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://doc.yasee.com.cn/docs/inner/reports/report_sdk_1v1"><link data-rh="true" rel="alternate" href="https://doc.yasee.com.cn/docs/inner/reports/report_sdk_1v1" hreflang="en"><link data-rh="true" rel="alternate" href="https://doc.yasee.com.cn/docs/inner/reports/report_sdk_1v1" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Yasee 开放平台规划","item":"https://doc.yasee.com.cn/docs/inner/reports/report_sdk_1v1"}]}</script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async crossorigin="anonymous" data-ad-client="ca-pub-8213337084986125"></script><link rel="stylesheet" href="/assets/css/styles.93d3a184.css">
+<script src="/assets/js/runtime~main.8544533b.js" defer="defer"></script>
+<script src="/assets/js/main.c7942726.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="Yasee" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="Yasee" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Yasee</b></a><a class="navbar__item navbar__link" href="/docs/welcome_yasee">集成文档(对客户)</a><a class="navbar__item navbar__link" href="/docs/welcome_third">对接规范(生态合作伙伴)</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/inner/welcome_inner">项目计划(内部)</a><a class="navbar__item navbar__link" href="/docs/historys/android_intro_24_10_05">修订记录</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/widgets/all_widgets">共建组件</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/inner/welcome_inner"><span title="欢迎👏" class="linkLabel_WmDU">欢迎👏</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/inner/reports/replace_yasee_sdk"><span title="报告" class="categoryLinkLabel_W154">报告</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/replace_yasee_sdk"><span title="Yasee SDK 替换报告" class="linkLabel_WmDU">Yasee SDK 替换报告</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/replace_yasee"><span title="展会突击项目" class="linkLabel_WmDU">展会突击项目</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_yucheng"><span title="玉成对接 问题与方案" class="linkLabel_WmDU">玉成对接 问题与方案</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_battery_pullout"><span title="初始电量&amp;双插口插拔 问题与方案" class="linkLabel_WmDU">初始电量&amp;双插口插拔 问题与方案</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/replace_merge_bhy"><span title="合并百合医方案" class="linkLabel_WmDU">合并百合医方案</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_ios_ble_reconnect"><span title="iOS端蓝牙重连补偿" class="linkLabel_WmDU">iOS端蓝牙重连补偿</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_serial"><span title="串口Demo 展示" class="linkLabel_WmDU">串口Demo 展示</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_massship"><span title="白细胞分析仪" class="linkLabel_WmDU">白细胞分析仪</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_maizhen"><span title="脉诊 调研 分析报告" class="linkLabel_WmDU">脉诊 调研 分析报告</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_maizhen_luoji"><span title="脉诊设备逻辑" class="linkLabel_WmDU">脉诊设备逻辑</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/inner/reports/report_sdk_1v1"><span title="Yasee 开放平台规划" class="linkLabel_WmDU">Yasee 开放平台规划</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/inner/reports/report_health"><span title="健康数据接入与合规方案汇报（HealthKit + 硬件）" class="linkLabel_WmDU">健康数据接入与合规方案汇报（HealthKit + 硬件）</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/inner/pms/pm_24_10"><span title="项目" class="categoryLinkLabel_W154">项目</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/inner/protocols/protocol_ble"><span title="协议" class="categoryLinkLabel_W154">协议</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">报告</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Yasee 开放平台规划</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Yasee 开放平台规划</h1></header>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-愿景--风暴--缘由">🧠 愿景 &amp; 风暴 &amp; 缘由<a href="#-愿景--风暴--缘由" class="hash-link" aria-label="Direct link to 🧠 愿景 &amp; 风暴 &amp; 缘由" title="Direct link to 🧠 愿景 &amp; 风暴 &amp; 缘由" translate="no">​</a></h2>
+<p>在公司及领导的发展规划中, 对于Yasee 来讲都是以平台为基础, 服务C端用户的同时; 也为B端用户; 提供一站式的解决方案。
+为此; 为了实现平台化发展需求; Yasee 开放平台应运而生; Yasee 开发平台集合 优秀的B 端客户; 让B端客户可以更方便的 通过Yasee 开放平台; 对Yasee自研、以及生态品的集成; 极大的减少了对接的复杂度;以及扩宽了自有产品的丰富度.</p>
+<p>打造一个自助式开放平台，供企业客户提供:</p>
+<ul>
+<li class="">注册(企业入驻; 名称、社会信任编码)</li>
+<li class="">创建应用 (名称、 包名)</li>
+<li class="">下载对接 (动态构建; 离线版本绑定应用; 防串改; 防盗用; 含过期)</li>
+</ul>
+<p>等 Yasee IoT 设备能力的 SDK; 目前包含终端为:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->iOS</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Android</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Flutter</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->HarmonyOS</li>
+</ul>
+<p>实现设备快速接入能力。该平台为后续<strong>数据能力</strong>与<strong>商业化</strong>打下基础。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-目标">🎯 目标<a href="#-目标" class="hash-link" aria-label="Direct link to 🎯 目标" title="Direct link to 🎯 目标" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-business-goals">📈 Business Goals<a href="#-business-goals" class="hash-link" aria-label="Direct link to 📈 Business Goals" title="Direct link to 📈 Business Goals" translate="no">​</a></h3>
+<ul>
+<li class="">支持企业客户自助接入 SDK，减少销售和支持成本</li>
+<li class="">搭建标准化平台，降低客户接入门槛</li>
+<li class="">为后续设备数据能力、账户体系、商业模式做基础铺设</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-user-goals">👨‍💻 User Goals<a href="#-user-goals" class="hash-link" aria-label="Direct link to 👨‍💻 User Goals" title="Direct link to 👨‍💻 User Goals" translate="no">​</a></h3>
+<ul>
+<li class="">开发者能快速注册账号，创建自己的应用项目</li>
+<li class="">获取每个 App 的唯一标识（AppKey / Secret）</li>
+<li class="">下载对应平台 SDK，查看快速集成文档</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-用户故事">👤 用户故事<a href="#-用户故事" class="hash-link" aria-label="Direct link to 👤 用户故事" title="Direct link to 👤 用户故事" translate="no">​</a></h2>
+<table><thead><tr><th>角色</th><th>用户</th><th>用户故事</th></tr></thead><tbody><tr><td>企业</td><td>*企业开发者</td><td>我希望能注册账号、创建应用、快速下载 SDK 并集成设备能力</td></tr><tr><td>企业</td><td>企业产品经理</td><td>我希望能知道每个 SDK 支持哪些产品线、查看说明文档</td></tr><tr><td>Yasee</td><td>*客户服务团队</td><td>我希望客户可以自助接入，减少我们一对一技术支持时间,</td></tr></tbody></table>
+<p>流程内容基本如下:
+<img decoding="async" loading="lazy" src="/assets/images/report_sdk_1v1-be24a01a46c3b6d236e1515300a9fa63.png" width="1638" height="1412" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-用户体验流程">🧭 用户体验流程<a href="#-用户体验流程" class="hash-link" aria-label="Direct link to 🧭 用户体验流程" title="Direct link to 🧭 用户体验流程" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>注册登录</strong></p>
+<ul>
+<li class="">使用手机号 / 邮箱注册</li>
+<li class="">设置企业名称、联系人</li>
+</ul>
+</li>
+<li class="">
+<p><strong>企业控制台首页</strong></p>
+<ul>
+<li class="">显示当前企业信息</li>
+<li class="">展示“创建应用”引导按钮</li>
+</ul>
+</li>
+<li class="">
+<p><strong>创建 App 项目</strong></p>
+<ul>
+<li class="">填写项目名称、平台（iOS / Android / Flutter）</li>
+<li class="">自动生成 AppKey / Secret</li>
+<li class="">可配置产品线类型（可选）</li>
+</ul>
+</li>
+<li class="">
+<p><strong>下载 SDK</strong></p>
+<ul>
+<li class="">根据平台显示对应 SDK 包</li>
+<li class="">展示快速集成指南（文档 / 示例代码 / 配置说明）</li>
+<li class="">提供历史版本下载（可选）</li>
+</ul>
+</li>
+<li class="">
+<p><strong>SDK 文档页</strong></p>
+<ul>
+<li class="">一站式查看功能介绍、支持产品、API 接口说明</li>
+<li class="">预留链接跳转到设备管理 / 数据统计模块（V2）</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-narrative讲故事给老板听">📖 Narrative（讲故事给老板听）<a href="#-narrative讲故事给老板听" class="hash-link" aria-label="Direct link to 📖 Narrative（讲故事给老板听）" title="Direct link to 📖 Narrative（讲故事给老板听）" translate="no">​</a></h2>
+<p>想象一个智能门锁厂商，他们选用了你们的 IoT 模块。以前他们需要和你们一对一联系、拿到文档、对接 SDK、集成各种设备参数，非常痛苦。</p>
+<p>现在，他们只需要：</p>
+<ol>
+<li class="">注册一个企业账号；</li>
+<li class="">创建“智能门锁 App”；</li>
+<li class="">下载 SDK 并集成文档里的代码；</li>
+</ol>
+<p>就能立刻使用你们的 SDK 控制门锁、读取状态，实现全自动化接入。</p>
+<p>这不仅大幅提升了客户体验，还让销售变得更容易，也为你们以后做「设备数据平台」、「高级能力按量计费」等业务打下了坚实基础。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-技术考虑">🧩 技术考虑<a href="#-技术考虑" class="hash-link" aria-label="Direct link to 🧩 技术考虑" title="Direct link to 🧩 技术考虑" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="平台结构">平台结构<a href="#平台结构" class="hash-link" aria-label="Direct link to 平台结构" title="Direct link to 平台结构" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>前端</strong>：React / Vue + 登录 + 控制台界面</li>
+<li class=""><strong>后端</strong>：Node.js / Java + 企业/应用管理系统</li>
+<li class=""><strong>存储</strong>：云存储 SDK 包（如 OSS / S3），数据库存企业和应用信息</li>
+<li class=""><strong>文档系统</strong>：支持 Markdown 渲染或集成现有 Wiki</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="安全">安全<a href="#安全" class="hash-link" aria-label="Direct link to 安全" title="Direct link to 安全" translate="no">​</a></h3>
+<ul>
+<li class="">AppKey/Secret 加密存储</li>
+<li class="">SDK 包校验（版本签名、hash）</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="拓展预留">拓展预留<a href="#拓展预留" class="hash-link" aria-label="Direct link to 拓展预留" title="Direct link to 拓展预留" translate="no">​</a></h3>
+<ul>
+<li class="">产品线配置（用于后续设备接入匹配）</li>
+<li class="">日志收集 &amp; 统计接口预埋（用于后续监控和分析）</li>
+<li class="">接入计费系统（后续可按调用数收费）</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-milestones--sequencing">📆 Milestones &amp; Sequencing<a href="#-milestones--sequencing" class="hash-link" aria-label="Direct link to 📆 Milestones &amp; Sequencing" title="Direct link to 📆 Milestones &amp; Sequencing" translate="no">​</a></h2>
+<table><thead><tr><th>阶段</th><th>功能模块</th></tr></thead><tbody><tr><td>第 1 阶段</td><td>平台账号注册、登录、企业信息管理</td></tr><tr><td>第 2 阶段</td><td>应用创建、平台选择、生成 AppKey / Secret</td></tr><tr><td>第 3 阶段</td><td>SDK 下载页、文档中心、示例代码支持</td></tr><tr><td>第 4 阶段</td><td>文档内容丰富、版本控制系统上线、SEO 支持</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-衍生功能未来可以扩展">💡   衍生功能（未来可以扩展）<a href="#-衍生功能未来可以扩展" class="hash-link" aria-label="Direct link to 💡 衍生功能（未来可以扩展）" title="Direct link to 💡 衍生功能（未来可以扩展）" translate="no">​</a></h2>
+<ul>
+<li class="">自定义 SDK 模块组合（根据产品线和功能）</li>
+<li class="">设备数据统计（DAU、在线状态、调用次数）</li>
+<li class="">商业模式探索 1. SDK相关功能探索 和 差异化探索</li>
+<li class="">推送运营功能（如 OTA 升级、远程控制）</li>
+<li class="">企业权限管理（多个开发者协同）</li>
+</ul>
+<hr></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/inner/reports/report_sdk_1v1.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/inner/reports/report_maizhen_luoji"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">脉诊设备逻辑</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/inner/reports/report_health"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">健康数据接入与合规方案汇报（HealthKit + 硬件）</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-愿景--风暴--缘由" class="table-of-contents__link toc-highlight">🧠 愿景 &amp; 风暴 &amp; 缘由</a></li><li><a href="#-目标" class="table-of-contents__link toc-highlight">🎯 目标</a><ul><li><a href="#-business-goals" class="table-of-contents__link toc-highlight">📈 Business Goals</a></li><li><a href="#-user-goals" class="table-of-contents__link toc-highlight">👨‍💻 User Goals</a></li></ul></li><li><a href="#-用户故事" class="table-of-contents__link toc-highlight">👤 用户故事</a></li><li><a href="#-用户体验流程" class="table-of-contents__link toc-highlight">🧭 用户体验流程</a></li><li><a href="#-narrative讲故事给老板听" class="table-of-contents__link toc-highlight">📖 Narrative（讲故事给老板听）</a></li><li><a href="#-技术考虑" class="table-of-contents__link toc-highlight">🧩 技术考虑</a><ul><li><a href="#平台结构" class="table-of-contents__link toc-highlight">平台结构</a></li><li><a href="#安全" class="table-of-contents__link toc-highlight">安全</a></li><li><a href="#拓展预留" class="table-of-contents__link toc-highlight">拓展预留</a></li></ul></li><li><a href="#-milestones--sequencing" class="table-of-contents__link toc-highlight">📆 Milestones &amp; Sequencing</a></li><li><a href="#-衍生功能未来可以扩展" class="table-of-contents__link toc-highlight">💡 衍生功能（未来可以扩展）</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">文档中心</div><ul class="footer__items clean-list"></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">其余产品</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://wechat.yasee.com.cn" target="_blank" rel="noopener noreferrer" class="footer__link-item">Yasee 慢病管理平台<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">更多关于</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.yasee-med.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Yasee(作者✍️)<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Yasee Mobile Group, Inc.</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+com.yasee.yasee
+com.yasee.yasee.core.abstracts
+com.yasee.yasee.core.configs
+com.yasee.yasee.core.enums
+com.yasee.yasee.core.interfaces
+com.yasee.yasee.core.models
+com.yasee.yasee.core.receivers
+com.yasee.yasee.core.tools
+com.yasee.yasee.platforms.elva
+com.yasee.yasee.platforms.hlw
+com.yasee.yasee.platforms.masschip
+com.yasee.yasee.platforms.tmd
+com.yasee.yasee.platforms.welland
+com.yasee.yasee.platforms.yucheng
+com.yasee.yasee.protocols.ble
+com.yasee.yasee.protocols.serial
+com.yasee.yasee.protocols.wifi
